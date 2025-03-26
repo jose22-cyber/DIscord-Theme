@@ -1,0 +1,9 @@
+{
+    "name": "BMW Theme",
+    "description": "A simple BMW theme.",
+    "version": "1.0",
+    "author": "kaito2#1489",
+    "theme": ".SimpleBMW.theme.css",
+    "consent": ["ext_listing"],
+    "license": "MIT"
+}

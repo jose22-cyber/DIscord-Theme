@@ -1,0 +1,85 @@
+/* Base de tema personalizado para BetterDiscord */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/* Establecer fuentes y colores */
+:root {
+  --primary-bg-color: #1e1e1e; /* Fondo principal */
+  --secondary-bg-color: #2e2e2e; /* Fondo secundario */
+  --primary-text-color: #ffffff; /* Color del texto */
+  --accent-color: #7289da; /* Color de acento (como los botones) */
+  --hover-color: #3e3e3e; /* Color al pasar el ratón sobre un elemento */
+  --border-color: #444444; /* Color de bordes */
+}
+
+/* Fondo de la aplicación */
+.theme-dark, .theme-dark .container-1PpFeG {
+  background-color: var(--primary-bg-color) !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+/* Mensajes de texto */
+.message-2qnXI6 {
+  color: var(--primary-text-color);
+}
+
+/* Barra lateral */
+.app-3XUqCp {
+  background-color: var(--secondary-bg-color) !important;
+  border-right: 1px solid var(--border-color);
+}
+
+/* Fuentes y botones */
+button {
+  background-color: var(--accent-color);
+  color: var(--primary-text-color);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--hover-color);
+}
+
+/* Personalización de la barra de mensajes */
+.chat-1ZNXYn {
+  background-color: var(--secondary-bg-color) !important;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+/* Títulos */
+h1, h2, h3 {
+  color: var(--accent-color);
+}
+
+/* Estilo de la barra superior */
+.title-2MkrU2 {
+  background-color: var(--primary-bg-color) !important;
+  color: var(--primary-text-color);
+}
+
+/* Estilo de las notificaciones */
+.notification-2NK7Jv {
+  background-color: #4f4f4f !important;
+  color: var(--primary-text-color);
+}
+
+/* Modificar bordes de los contenedores */
+.container-2KBuI0 {
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+}
+
+/* Barra de búsqueda */
+.search-1Yh_Mh {
+  background-color: var(--secondary-bg-color) !important;
+  color: var(--primary-text-color);
+  border: 1px solid var(--border-color);
+}
+
+/* Modificaciones del hover sobre los elementos */
+.container-1PpFeG:hover {
+  background-color: var(--hover-color);
+}

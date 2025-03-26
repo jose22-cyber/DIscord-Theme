@@ -1,0 +1,95 @@
+/*
+@name BMW M4 Theme
+@description Tema personalizado para BetterDiscord con fondo de BMW M4 Competition
+@version 1.0
+@author TuNombre
+@source https://github.com/TuRepositorio
+*/
+
+@import url('https://DiscordStyles.github.io/DarkMatter/src/base.css');
+
+:root {
+    --avatar-size: 32px;
+    --background-image: url('https://i.postimg.cc/BQS4HM9X/Screenshot-bmw-m4-gt3-acc-madrid-2026-30-5-124-19-0-58.jpg'); /* Reemplaza con la URL real */
+    --home-image: url('https://your-image-link.com/bmw-m4-competition.jpg'); /* Fondo de inicio */
+    --background-solid: #161921;
+    --background-solid-dark: #101218;
+    --background-solid-darker: #0c0e12;
+    --accent: 255, 0, 122;
+    --accent-alt: 255, 77, 166;
+    --border-radius: 12px;
+    --font-family: 'Poppins', sans-serif;
+    --logo-image: url('https://i.postimg.cc/hjQbC9km/Captura-de-pantalla-2024-02-25-001942.png'); /* Reemplaza con la URL real del logo */
+}
+
+/* Background and General Styling */
+body {
+    background: var(--background-solid) !important;
+    font-family: var(--font-family) !important;
+    background-image: var(--background-image) !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+/* Sidebar Styling */
+.sidebar-2K8pFh {
+    background: rgba(16, 18, 24, 0.85) !important;
+    border-radius: var(--border-radius);
+}
+
+/* Server List */
+.wrapper-1BJsBx {
+    background: rgba(22, 27, 34, 0.85) !important;
+    border-radius: var(--border-radius);
+}
+
+/* Messages */
+.message-2qnXI6 {
+    background: rgba(var(--accent), 0.1) !important;
+    border-radius: var(--border-radius);
+    transition: background 0.3s;
+}
+.message-2qnXI6:hover {
+    background: rgba(var(--accent), 0.2) !important;
+}
+
+/* Buttons */
+.button-3bklZh {
+    background: rgb(var(--accent)) !important;
+    color: #fff !important;
+    border-radius: var(--border-radius);
+}
+.button-3bklZh:hover {
+    background: rgb(var(--accent-alt)) !important;
+}
+
+/* Input Fields */
+.inputDefault-_djjkz,
+.input-2g-os5 {
+    background: rgba(16, 18, 24, 0.85) !important;
+    color: var(--text-color) !important;
+    border: 1px solid rgb(var(--accent)) !important;
+    border-radius: var(--border-radius);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(var(--accent));
+    border-radius: 10px;
+}
+
+/* Logo in Sidebar */
+.sidebar-2K8pFh::before {
+    content: "";
+    display: block;
+    width: 150px; /* Ajusta el tamaño del logo */
+    height: 150px;
+    background-image: var(--logo-image);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px auto;
+}
