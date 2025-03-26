@@ -6,7 +6,7 @@
 @source https://github.com/jose22-cyber/DIscord-Theme
 */
 
-@import url('https://DiscordStyles.github.io/DarkMatter/src/base.css');
+@import url('https://github.com/jose22-cyber/DIscord-Theme/tree/main/src/base.css');
 
 :root {
     --avatar-size: 32px;
