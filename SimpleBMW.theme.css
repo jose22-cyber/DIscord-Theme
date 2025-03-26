@@ -6,7 +6,7 @@
 @source https://github.com/jose22-cyber/DIscord-Theme
 */
 
-@import url('https://github.com/jose22-cyber/DIscord-Theme/tree/main/src/base.css');
+@import url('https://raw.githubusercontent.com/jose22-cyber/DIscord-Theme/refs/heads/main/src/base.css?token=GHSAT0AAAAAADBFWMXRSAMUG2Q6FU7457QCZ7EC44A');
 
 :root {
     --avatar-size: 32px;
